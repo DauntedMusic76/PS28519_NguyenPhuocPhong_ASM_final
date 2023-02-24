@@ -1,0 +1,22 @@
+
+
+.tin-nong {
+    width: calc(70% - 10px);
+    height: 400px;
+    background-color: red;
+    float: left;
+}
+
+.tin-moi {
+    width: calc(30% - 10px);
+    height: 600px;
+    background-color: yellow;
+    float: right;
+}
+
+.tin-nong1 {
+    width: calc(70% - 10px);
+    height: 200px;
+    background-color: red;
+    float: left;
+}

@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1080px;
+    min-height: 1000px;
+    /* background-color: yellow; */
+}
+
+/* logo */
+
+.logo {
+    width: 100%;
+    height: 200px;
+    /* background-color: aqua; */
+    text-align: center;
+}
+
+.logo>img {
+    width: 400px;
+    padding-top: 80px;
+}
+
+nav {
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
+.hmenu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+}
+
+ul>li {
+    padding-left: 10px;
+}
+
+.hmenu>li>a{
+    display: block;
+    line-height: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.nhiet-do {
+    width: 70%;
+    height: 40px;
+    /* background-color: blue; */
+    float: left;
+}
+
+.dang-nhap {
+    width: 30%;
+    height: 40px;
+    /* background-color: aqua; */
+    float: left;
+}
+
+.dang-nhap>textarea {
+    width: 200px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.login1 {
+    width: 100px;
+    height: 30px;
+    box-shadow: none;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    box-shadow: inset 0 0 20px blue;
+    color: white;
+}
+
+.login1:hover {
+    color: blue;
+    box-shadow: inset 0 0 20px yellow;
+}
+
+.dang-nhap .login1 a {
+    text-decoration: none;
+}
+
+.h1 {
+    margin-top: 60px;
+}
+
+.left {
+    width: calc(70% - 5px);
+    height: 400px;
+    background-color: rgb(252, 236, 236);
+    float: left;
+}
+
+.right {
+    width: calc(30% - 5px);
+    height: 400px;
+    background-color: green;
+    float: left;
+}
+
+.mr10 {
+    margin-right: 10px;
+}
+
+.main-page {
+    width: calc(70% - 5px);
+    height: 400px; 
+    /* background-color: aqua;   */
+    float: left;
+}
+
+.main-page  img {
+    width: 100%;
+    height: 300px;
+}
+
+.main-page a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+}
+
+.main-page {
+    font-size: 15px;
+}
+
+.tin-le {
+    width: calc(30% - 5px);
+    height: 400px;
+    /* background-color: aqua; */
+    float: left;
+}
+.tin {
+    width: 100%;
+    height: 50%;
+    /* background-color: antiquewhite; */
+}
+
+.tin img {
+    width: 100%;
+    height: 140px;
+}
+
+.tin a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.quang-cao {
+    width: 80%;
+    height: 100px;
+    background-color: green;
+    clear: both;
+    margin: 0 auto;
+    margin-top: 420px;
+}
+
+.list-tin {
+    float: left;
+    margin-top: 10px;
+    width: calc(70% - 5px);
+    height: 330px;
+    /* background-color: aqua; */
+}
+
+.list {
+    width: 100%;
+    height: 100px;
+    /* background-color: antiquewhite; */
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.list a img {
+    width: 30%;
+    height: 100px;
+    float: left;
+}
+
+.list a p {
+    width: 70%;
+    height: calc(100% / 3);
+    float: left;
+    font-size: 20px;
+    color: gray;
+}
+
+.list-tin-right {
+    float: left;
+    margin-top: 10px;
+    width: calc(30% - 5px);
+    height: 330px;
+    /* background-color: aqua; */
+}
+
+.list-tin-right img {
+    width: 100%;
+    height: 200px;
+}
+
+.list-tin-right a {
+    color: gray;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.thong-tin-web {
+    width: 100%;
+    height: 250px;
+    background-color: rgb(226, 226, 226);
+    clear: both;
+}
+
+.mucluc {
+    float: left;
+    width: calc(20% - 10px);
+    height: 150 px;
+}
+
+.mucluc a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    line-height: 30px;
+}
+
+.hr {
+    clear: both;
+}
+
+.tt-anh {
+    width: 20%;
+    float: left;
+}
+
+.tt-anh>img {
+    width: 100%;
+}
+
+.tt-tac-gia {
+    padding-left: 30px;
+    width: 40%;
+    height: 100px;
+    float: left;
+    font-size: 10px;
+}
+
+.ban-quyen {
+    width: 40%;
+    height: 100px;
+    float: left;
+    font-size: 10px;
+    padding-left: 3 0px;
+}
